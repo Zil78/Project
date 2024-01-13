@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+  
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  
+<link rel="stylesheet" 
+    
+type="text/css"/>
+  
+<title>BSCS-A</title>
+
+</head>
+
+
+<body>
+  
+<div id="section1">
+ 
+<h1>TOURIST SPOTS IN MINDANAO, PHILIPPINES</h1>
+  
+<div class="w3-bar w3-teal">
+<button class="w3-bar-item w3-button"><a href="#section1">Home</a>  </button>
+<button class="w3-bar-item w3-button"><a href="#section2">About</a> </button>
+<button class="w3-bar-item w3-button"><a href="#section3">Refences</a></button>
+</div>
+    
+    
+
+<div id="section2">
+  
+<p>The Mindanao, the second-largest island in the Philippines, is a vibrant blend of cultures, flavors, and natural wonders. Here are some of the best tourist spots you might want to visit:</p>
+
+    
+<br>
+    <br>
+    
+<div class="w3-bar w3-black">
+  
+<button class="w3-bar-item w3-button" onclick="openPlace('Siargao')">Siargao Island</button>
+  <button class="w3-bar-item w3-button" onclick="openPlace('Samal')">Samal Island</button>
+  <button class="w3-bar-item w3-button" onclick="openPlace('Camiguin')">Camiguin Island</button>
+ <button class="w3-bar-item w3-button" onclick="openPlace('Mount Apo')">Mount Apo</button>
+ <button class="w3-bar-item w3-button" onclick="openPlace('Eden Nature Park')">Eden Nature Park</button>
+ <button class="w3-bar-item w3-button" onclick="openPlace('Zamboanga')">Zamboanga City</button>
+<button class="w3-bar-item w3-button" onclick="openPlace('Bukidnon')">Bukidnon City</button>
+    </div>
+   
+
+<div id="Siargao" class="place" style="display:none">
+   
+<h2>  <p>•Siargao Island: </p></h2>
+  
+<p>  Having crystal clear turquoise waters surrounding the island which is covered in coconut palm trees, and home to some of the most beautiful beach resorts in the Philippines, Siargao is no doubt a dream tropical destination for any travelers. It os being known as the "Surfing Capital of the Philippines" since the island boasts some of the most influential surf breaks in the world with its towering waves and beautiful beaches. So Siargao is without doubt the every surfer's dream destination.Aside from surfing, it is also offer other activities such as cave explorations and rock climbing. So don't miss the chance to visit the Magpupungko Rock Pools and Sohoton Cove. </p> 
+
+
+<img class="mySlides"src="https://drive.google.com/uc?export=view&id=1znM1Kb8NVoaPEZKkVG1EejIkEqNqfqDN"style="width:25%"class="w3-border w3-padding">
+<img class="mySlides"src="C:\Users\admin\Documents\923735352757039725\Prog\Website/siargao_2.jpg"style="width:25%"class="w3-border w3-padding">
+<img class="mySlides"src="C:\Users\admin\Documents\923735352757039725\Prog\Website/siargao_3.jpg"style="width:25%"class="w3-border w3-padding">
+ <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+ <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<script>
+
+var slideIndex = 1;
+
+showDivs(slideIndex);
+
+
+function plusDivs(n) 
+{
+  showDivs(slideIndex += n);
+}
+
+
+function showDivs(n) {
+  
+var i;
+  
+var x = document.getElementsByClassName("mySlides");
+  
+if (n > x.length) {slideIndex = 1}
+  
+if (n < 1) {slideIndex = x.length} ;
+  
+for (i = 0; i < x.length; i++) {
+    
+x[i].style.display = "none";
+  }
+  
+x[slideIndex-1].style.display = "block";
+}
+</script>
+    </div>
+    
+
+
+<div id="Samal" class="Place" style="display:none">
+      
+<h2> <p>•Samal Island: </p> </h2>
+      
+<p>Just a quick ferry ride from Davao City, Samal Island is blessed with pristine white sand beaches, clear waters, amazing dive sites, coral gardens, caves to explore, refreshing Hagimit falls, mountains to climb, and with a relaxed island vibe. The Vanishing Island is also a must-visit spot. Samal Island is also the Guinness Book of World record holder for the biggest concentration of fruit bats – the Monfort Bat Caves and home to thousands of giant clams also known as "Taclobo". So come to enjoy while discovering, exploring and be enamored with this island paradise, situated within the heart of Davao Gulf. </p>
+
+<img class="Slides"src="file:/storage/emulated/0/Pictures/Screenshot/1704950565846.jpg"style="width:25%">
+
+<img class="Slides"src="file:/storage/emulated/0/Pictures/Screenshot/1704950587787.jpg"style="width:100%">
+ 
+<img class="Slides"src="file:/storage/emulated/0/Pictures/Screenshot/1704950612131.jpg"style="width:100%">  
+
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+ 
+<script>
+var slideIndex = 1;
+
+showDivs(slideIndex);
+
+
+function plusDivs(n) {
+  
+showDivs(slideIndex += n);
+}
+
+
+function showDivs(n) {
+  
+var i;
+  
+var x = document.getElementsByClassName("Slides");
+  
+if (n > x.length) {slideIndex = 1}
+  
+if (n < 1) {slideIndex = x.length} ;
+  
+for (i = 0; i < x.length; i++) {
+    
+x[i].style.display = "none";
+  }
+  
+x[slideIndex-1].style.display = "block";
+}
+</script>
+ </div>
+    
+
+
+<div id="Camiguin" class="place" style="display:none">
+<h2><p>•Camiguin Island: </p></h2>
+
+<p>  In the north eastern part of the region, is the  pear-shaped volcanic island of Camiguin, the Island Born of Fire known for its natural attractions like hot and cold springs, iridescent lagoons, pristine waterfalls, white sandy beaches, two beautiful islets lost at sea, a seascape teeming with colorful varieties of marine life and jagged volcanic mountains. The Sunken cemetery is a unique site that should be missed. It can be said that Mother Nature's best are all found here in this small island with all of the island's attractions are just minutes away from each other. Last April 2013, Philippines declared the White Island Bar of Mambajao, Camiguin as the Number 1 beach spot tourists shouldn't miss in the Philippines. </p>
+
+<img class="slides"src="file:/storage/emulated/0/Pictures/Screenshot/1704945245884.jpg"style="width:25%">
+
+<img class="slides"src="file:/storage/emulated/0/Pictures/Screenshot/1704945294543.jpg"style="width:25%">     
+
+<img class="slides"src="file:/storage/emulated/0/Pictures/Screenshot/1704945475676.jpg"style="width:25%">
+
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+ 
+
+<script>
+
+var slideIndex = 1;
+
+showDivs(slideIndex);
+
+
+function plusDivs(n) {
+  
+showDivs(slideIndex += n);
+}
+
+
+function showDivs(n) {
+  
+var i;
+  
+var x = document.getElementsByClassName("slides");
+  
+if (n > x.length) 
+{slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  
+for (i = 0; i < x.length; i++) {
+    
+x[i].style.display = "none";
+  }
+  
+x[slideIndex-1].style.display = "block";
+}
+</script>
+  </div>
+  
+
+<div id="Mount Apo" class="place" style="display:none">
+
+<h2><p>•Mount Apo: </p></h2>
+
+<p>    Mount Apo with its breathtaking sceneries and mountainscapes is home to well over 200 bird species, over half of which are endemic to the region and are found nowhere else on Earth.
+In fact,since the mountain has a high level of biological diversity,it is considered to be at the heart of endemism on the island of Mindanao. Someone could say that the most famous bird in the mountain is the Philippine eagle (Pithecophaga jefferyi). The eagle is currently critically endangered due to habitat loss and killing a Phillipine eagle is highly illegal under Philippine law. All in all, Mount Apo is not a particularly technical climb, although hiring a local guide that can help you is a good idea. The peak is  climbable all year long, it is best hiked between the months of March and May when the weather is generally much more stable. </p>
+
+<img class="Pics" src="file:/storage/emulated/0/Pictures/Screenshot/1704944470207.jpg"style="width:25%">
+
+<img class="Pics"src="file:/storage/emulated/0/Pictures/Screenshot/1704945016743.jpg"style="width:25%">
+
+<img class="Pics"src="file:/storage/emulated/0/Pictures/Screenshot/1704945084808.jpg"style="width:25%">   
+
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+ 
+
+<script>
+
+var slideIndex = 1;
+
+showDivs(slideIndex);
+
+
+function plusDivs(n) {
+  
+showDivs(slideIndex += n);
+}
+
+
+
+function showDivs(n) {
+  
+var i;
+  
+var x = document.getElementsByClassName("Pics");
+  
+if (n > x.length) {slideIndex = 1}
+ 
+if (n < 1) {slideIndex = x.length} ;
+  
+for (i = 0; i < x.length; i++) {
+    
+x[i].style.display = "none";
+  }
+  
+x[slideIndex-1].style.display = "block";
+}
+</script>
+  </div>
+          
+
+<div id="Eden Nature Park" class="place" style="display:none">
+
+<h2><p>•Eden Nature Park: </p></h2>
+
+<p> Before providing a magnificent backdrop of the various attractions in Eden, it was once covered by a blanket of wild grass where thousands of pine seedlings were planted. It offers a wonderful view of Davao City and the gulf beholds you as commune with nature. There is a plethora of things to do in this park. It has various attractions, dining outlets, fishing village, butterfly garden, hydroponically-grown vegetables, flower and herb garden, adventure rides,  cultural village, rooms and cottages were built along with the attractions. Eden also caters to the younger and more adventurous generation. First is the zipline then the Skycycle, the first and so far the only one in Davao. In 2015, Eden takes the adventure rides to a higher level. The park launched the Skyswing, another first-of-its-kind in the Davao Region. Their presence is felt by every person thinking of going to Davao that Eden Nature Park should always be a part of their go-to list. </p>
+
+</div>
+  
+
+
+<div id="Zamboanga" class="place" style="display:none">
+
+<h2><p>•Zamboangua City:</p></h2>
+
+<p> Known as "Asia's Latin City",  famous for its Spanish-influenced Chavacano language, the Zamboanga’s Spanish-style architecture, fine beaches with mountainous backdrops combine having a cool climate to make it a favourite tourist spot.  Bougainvillea, orchids, and other tropical flowers line its roadsides. The Fort Pilar, the shrine of Our Lady of the Pillar, was built in the 17th century and now houses a branch of the national museum. Zamboanga’s principal exports include fish and fish products, processed fruit, coconut-based products, shell and rubber manufactures, and wooden furniture meanwhile the rice is imported. The city is a centre for Moro brass ware and bronze ware and a collecting point for shells, which are used mainly for local button manufacture. The vibrant vinta boats at Paseo del Mar. </p>  
+
+<img class="my"src="file:/storage/emulated/0/Pictures/Screenshot/1704944062330.jpg"style="width:25%">
+
+<img class="my"src="file:/storage/emulated/0/Pictures/Screenshot/1704944327267.jpg"style="width:25%">
+
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+ 
+
+<script>
+
+var slideIndex = 1;
+
+showDivs(slideIndex);
+
+
+function plusDivs(n) {
+  
+showDivs(slideIndex += n);
+}
+
+
+function showDivs(n) {
+ 
+var i;
+  
+var x = document.getElementsByClassName("my");
+  
+if (n > x.length) {slideIndex = 1}
+  
+if (n < 1) {slideIndex = x.length} ;
+ 
+for (i = 0; i < x.length; i++) {
+    
+x[i].style.display = "none";
+  }
+  
+x[slideIndex-1].style.display = "block";
+}
+</script>
+  </div>
+      
+
+
+<div id="Bukidnon" class="place" style="display:none">
+
+<h2><p>•Bukidnon: </p></h2>
+
+<p>Bukidnon has a progressive agriculture-based economy and boasts many exciting tourist attractions where adventure and natural beauty come together in perfect harmony while offering a diverse range of things to do and see. It is the main source of agricultural products and raw materials that feed the processing plants within the province and the major processing centers of the region. Hence, Bukidnon is tagged as the region’s “Food Basket”. Bukidnon is also labelled as the highland paradise in the heart of Mindanao. Bukidnon is famous for its stunning beauty, which includes numerous mountains, waterfalls, rivers,deep canyons and valleys. Its landscape is covered with lush green forests, rolling hills, and breathtaking vistas that captivate your senses. It has a refreshing vista for dwellers and travellers alike. It is relatively cool and moist throughout the year. </p>
+ 
+<img class="ms"src="file:/storage/emulated/0/Pictures/Screenshot/1704943746818.jpg"style="width:25%">
+    
+<img class="ms"src="file:/storage/emulated/0/Pictures/Screenshot/1704943768726.jpg"style="width:25%">
+    
+<img class="ms"src="file:/storage/emulated/0/Pictures/Screenshot/1704943788666.jpg"style="width:25%">
+
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+ 
+
+<script>
+
+var slideIndex = 1;
+
+showDivs(slideIndex);
+
+
+function plusDivs(n) {
+  
+showDivs(slideIndex += n);
+}
+
+
+function showDivs(n) {
+  
+var i;
+  
+var x = document.getElementsByClassName("ms");
+  
+if (n > x.length) {slideIndex = 1}
+  
+if (n < 1) {slideIndex = x.length} ;
+  
+for (i = 0; i < x.length; i++) {
+    
+x[i].style.display = "none";
+  }
+  
+x[slideIndex-1].style.display = "block";
+}
+</script>
+  </div>
+  
+
+<p>Remember, each place has its own unique charm and attractions. It's best to research and plan your trip according to your interests. Enjoy your adventure in Mindanao! 🌴🌊🌞</p>
+  
+
+</div>
+    
+   
+
+<div id="section3">
+
+<p> <h2> References</h2></p>
+
+<p> <a href="https://guidetothephilippines.ph/articles/what-to-experience/siargao-tourist-spots">Siargao Island</a></p>
+
+<p>  <a href="https://www.sunstar.com.ph/davao/local-news/the-story-of-the-island-garden-city-of-samal">Samal Island</a></p> 
+
+<p>  <a href="https://philippines.travel/destinations/camiguin#:~:text=It%20is%20a%20land%20of,colorful%20varieties%20of%20marine%20life"> Camiguin Island</a></p>
+
+<p> <a href="https://peakvisor.com/park/mt-apo-natural-park.html#:~:text=Home%20to%20the%20highest%20and,trails%20for%20all%20to%20enjoy"> Mount Apo</a></p>
+
+<p> <a href="https://www.sunstar.com.ph/more-articles/20-years-with-eden-nature-park#:~:text=Today%2C%20there%20are%20over%20100%2C000,as%20an%20eco%2Dtourism%20zone"> Eden Nature Park</a></p>
+
+<p> <a href="https://www.britannica.com/place/Zamboanga-City"> Zamboanga City</a></p>
+ <p> <a href="https://www.traveloka.com/en-ph/explore/destination/the-most-stunning-tourist-destinations-in-bukidnon-acc/254141"> Bukidnom City</a></p>
+
+  </div>
+  
+
+<script>
+
+function openPlace(Place) {
+  
+var i;
+  
+var x = document.getElementsByClassName("Place");
+  
+for (i = 0; i < x.length; i++) {
+    
+x[i].style.display = "none";
+  
+  }
+  
+document.getElementById(Place).style.display = "block";  
+}
+</script>
+</body>
+</html>
